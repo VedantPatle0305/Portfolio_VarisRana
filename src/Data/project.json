@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Resume-Builder-App",
+    "imageSrc": "Image/Project/Resume.jpg",
+    "description": "A cross-platform open-board application using electron.",
+    "skills": ["ReactJS", "Redux", "MySQL"],
+    "demo": "https://www.example.com",  
+    "source": "https://github.com/varis1807/Resume-Builder-App"
+  },
+  {
+    "title": "PEP BOARD",
+    "imageSrc": "Image/Project/PEPBOARD.png",
+    "description": "This is a project made to learn using a white board.",
+    "skills": ["ReactJS", "Express", "CSS"],
+    "demo": "https://varis1807.github.io/pep-board/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Dogs-Point",
+    "imageSrc": "Image/Project/dogPoint.png",
+    "description": "This project help you if you are planning to buy a dog .",
+    "skills": ["Node", "Express", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/varis1807/Dogs-Point"
+  }
+]

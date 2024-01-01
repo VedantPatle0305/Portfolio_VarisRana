@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Developer Engineer",
+    "organisation": "Parchaa",
+    "startDate": "Feb 2023",
+    "endDate": "Present",
+    "experiences": ["Building OpenAI API using NestJS", "Designed database solutions"],
+    "imageSrc": "Image/Company/parchaa_logo.png"
+  },
+  {
+    "role": "SDE Intern",
+    "organisation": "RevorHQ",
+    "startDate": "Aug, 2021",
+    "endDate": "Aug, 2022",
+    "experiences": ["Worked on Web3 and Metaverse", "Worked on NFT product"],
+    "imageSrc": "Image/Company/RevorHQ.jpeg"
+  },
+  {
+    "role": "Web Developer",
+    "organisation": "Freelancing",
+    "startDate": "Dec 2021",
+    "endDate": "Present",
+    "experiences": [
+      "Collaborate with different teams",
+      "Helped create UI components"
+    ],
+    "imageSrc": "Image/Company/freelancing.png"
+  }
+]

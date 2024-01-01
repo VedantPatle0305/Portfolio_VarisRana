@@ -1,0 +1,107 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    color: white;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "poppins";
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    z-index: 1;
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: "roboto";
+    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
+    -webkit-text-fill-color: transparent;
+    background-clip : text;
+}
+
+.description{
+    font-size: 30px;
+    margin-bottom: 52px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contactBtn{
+    text-decoration: none;
+    background-color: #3F9E70;
+    color: white;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600px;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    width: fit-content;
+}
+
+.HeroImg{
+    width: 50%;
+    z-index: 1;
+    border-radius: 100%;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating{
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.topblur{
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(19, 109, 89, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomblur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(19, 109, 89, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width: 830px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+}

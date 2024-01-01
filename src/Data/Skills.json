@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "Image/Skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "Image/Skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "Image/Skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "Image/Skills/node.png"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "Image/Skills/graphql.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "Image/Skills/mongodb.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "Image/Skills/figma.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "Image/Skills/springboot.png"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "Image/Skills/redux.png"
+  }
+]
