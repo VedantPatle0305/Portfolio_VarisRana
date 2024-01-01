@@ -104,4 +104,8 @@
     .content{
         align-items: center;
     }
+
+    .HeroImg{
+        margin-bottom: 25px;
+    }
 }

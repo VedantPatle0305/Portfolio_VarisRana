@@ -63,7 +63,17 @@
         align-items: center;
     }
 
+    .text p{
+        font-size: 25px;
+    }
+
     .links{
         align-items: center;
     }
+
+    .link a{
+        font-size: 19px;
+    }
+
+
 }
